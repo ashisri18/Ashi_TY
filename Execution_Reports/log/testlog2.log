@@ -1,0 +1,8 @@
+[INFO] 2016-02-09 13:40:56,572 com.tyss.pomRepo.HomePage goToLoginPage - giobiojb
+[INFO] 2016-02-09 13:40:56,908 com.tyss.pomRepo.LoginPage enterEmailId - Email-ID is entered
+[INFO] 2016-02-09 13:40:57,512 com.tyss.pomRepo.LoginPage enterPassword - Password is entered
+[FATAL] 2016-02-09 13:40:57,629 com.tyss.pomRepo.LoginPage clickLoginButton - clicked on Login Button.
+15:22:46 INFO  com.tyss.pomRepo.HomePage - giobiojb
+15:22:46 INFO  com.tyss.pomRepo.LoginPage - Email-ID is entered
+15:22:47 INFO  com.tyss.pomRepo.LoginPage - Password is entered
+15:22:47 FATAL com.tyss.pomRepo.LoginPage - clicked on Login Button.

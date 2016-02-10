@@ -42,3 +42,19 @@
 2016-02-09 17:16:55,256 - com.tyss.pomRepo.LoginPage -INFO - Email-ID is entered
 2016-02-09 17:16:55,460 - com.tyss.pomRepo.LoginPage -INFO - Password is entered
 2016-02-09 17:16:55,556 - com.tyss.pomRepo.LoginPage -FATAL - clicked on Login Button.
+2016-02-10 13:34:48,309 - com.tyss.pomRepo.HomePage -INFO - giobiojb
+2016-02-10 13:34:52,287 - com.tyss.pomRepo.LoginPage -INFO - Email-ID is entered
+2016-02-10 13:34:52,506 - com.tyss.pomRepo.LoginPage -INFO - Password is entered
+2016-02-10 13:34:52,631 - com.tyss.pomRepo.LoginPage -FATAL - clicked on Login Button.
+2016-02-10 13:44:06,775 - com.tyss.pomRepo.HomePage -INFO - giobiojb
+2016-02-10 13:44:07,056 - com.tyss.pomRepo.LoginPage -INFO - Email-ID is entered
+2016-02-10 13:44:07,220 - com.tyss.pomRepo.LoginPage -INFO - Password is entered
+2016-02-10 13:44:07,320 - com.tyss.pomRepo.LoginPage -FATAL - clicked on Login Button.
+2016-02-10 13:47:28,265 - com.tyss.pomRepo.HomePage -INFO - giobiojb
+2016-02-10 13:47:28,506 - com.tyss.pomRepo.LoginPage -INFO - Email-ID is entered
+2016-02-10 13:47:28,668 - com.tyss.pomRepo.LoginPage -INFO - Password is entered
+2016-02-10 13:47:28,766 - com.tyss.pomRepo.LoginPage -FATAL - clicked on Login Button.
+2016-02-10 13:51:09,980 - com.tyss.pomRepo.HomePage -INFO - giobiojb
+2016-02-10 13:51:10,249 - com.tyss.pomRepo.LoginPage -INFO - Email-ID is entered
+2016-02-10 13:51:10,415 - com.tyss.pomRepo.LoginPage -INFO - Password is entered
+2016-02-10 13:51:10,556 - com.tyss.pomRepo.LoginPage -FATAL - clicked on Login Button.

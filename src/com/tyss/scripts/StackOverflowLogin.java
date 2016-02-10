@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.tyss.generic.Browser;
@@ -12,7 +13,7 @@ import com.tyss.generic.Constants;
 import com.tyss.generic.Utility;
 import com.tyss.pomRepo.HomePage;
 import com.tyss.pomRepo.LoginPage;
-
+@Listeners (com.tyss.generic.Listeners.class)
 public class StackOverflowLogin extends Browser {
 	
 	HomePage home;

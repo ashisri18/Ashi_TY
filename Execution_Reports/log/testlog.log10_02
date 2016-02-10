@@ -1,0 +1,6 @@
+2016-02-10 15:12:43,036 - com.tyss.pomRepo.LoginPage -INFO - Email-ID is entered
+2016-02-10 15:12:43,204 - com.tyss.pomRepo.LoginPage -INFO - Password is entered
+2016-02-10 15:12:43,293 - com.tyss.pomRepo.LoginPage -FATAL - clicked on Login Button.
+2016-02-10 15:21:16,841 - com.tyss.pomRepo.LoginPage -INFO - Email-ID is entered
+2016-02-10 15:21:17,080 - com.tyss.pomRepo.LoginPage -INFO - Password is entered
+2016-02-10 15:21:17,177 - com.tyss.pomRepo.LoginPage -FATAL - clicked on Login Button.

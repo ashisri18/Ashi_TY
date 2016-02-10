@@ -35,10 +35,14 @@ public class Utility {
 	}
 
 	public static String currentDateTime(){
-		
-		DateFormat dateFormat = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
 		Date date = new Date();
-		return(dateFormat.format(date));
+		DateFormat dateFormat = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
+	//	DateFormat dateFormat = new SimpleDateFormat("dd/MM");
+		String  dateValue =dateFormat.format(date);		
+		System.out.println("dateValue :"+dateValue);
+		String newDateFormat = dateValue.replace("/", "_");
+		System.out.println("New date format : "+newDateFormat);
+		return newDateFormat;
 	}
 	
 	public static String readConfigPropertiesFile(String key) throws IOException{

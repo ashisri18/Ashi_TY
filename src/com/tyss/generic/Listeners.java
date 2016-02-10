@@ -9,8 +9,7 @@ public class Listeners implements ITestListener{
 	@Override
 	public void onTestStart(ITestResult result) {
 		String abc = Utility.currentDateTime();
-		System.getProperty("DateTime", abc);
-		
+		System.setProperty("DateTime", abc);
 	}
 
 	@Override

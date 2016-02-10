@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="18255" started-at="2016-02-10T08:20:58Z" finished-at="2016-02-10T08:21:16Z">
+  <suite name="Suite" duration-ms="25910" started-at="2016-02-10T10:19:00Z" finished-at="2016-02-10T10:19:25Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="18255" started-at="2016-02-10T08:20:58Z" finished-at="2016-02-10T08:21:16Z">
+    <test name="Test" duration-ms="25910" started-at="2016-02-10T10:19:00Z" finished-at="2016-02-10T10:19:25Z">
       <class name="com.tyss.scripts.StackOverflowLogin">
-        <test-method status="PASS" signature="beforeConfig()[pri:0, instance:com.tyss.scripts.StackOverflowLogin@17c68925]" name="beforeConfig" is-config="true" duration-ms="8660" started-at="2016-02-10T13:50:58Z" finished-at="2016-02-10T13:51:06Z">
+        <test-method status="PASS" signature="beforeConfig()[pri:0, instance:com.tyss.scripts.StackOverflowLogin@17c68925]" name="beforeConfig" is-config="true" duration-ms="14043" started-at="2016-02-10T15:49:00Z" finished-at="2016-02-10T15:49:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeConfig -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.tyss.scripts.StackOverflowLogin@17c68925]" name="login" duration-ms="3801" started-at="2016-02-10T13:51:06Z" finished-at="2016-02-10T13:51:10Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.tyss.scripts.StackOverflowLogin@17c68925]" name="login" duration-ms="5465" started-at="2016-02-10T15:49:14Z" finished-at="2016-02-10T15:49:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tyss.scripts.StackOverflowLogin@17c68925]" name="tearDown" is-config="true" duration-ms="5779" started-at="2016-02-10T13:51:10Z" finished-at="2016-02-10T13:51:16Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tyss.scripts.StackOverflowLogin@17c68925]" name="tearDown" is-config="true" duration-ms="6364" started-at="2016-02-10T15:49:19Z" finished-at="2016-02-10T15:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

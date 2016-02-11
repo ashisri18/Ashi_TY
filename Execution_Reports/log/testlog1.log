@@ -2,3 +2,7 @@
 2016-02-11 11:35:26,212 [main] INFO com.tyss.pomRepo.LoginPage - Email-ID is entered
 2016-02-11 11:35:26,357 [main] INFO com.tyss.pomRepo.LoginPage - Password is entered
 2016-02-11 11:35:26,450 [main] FATAL com.tyss.pomRepo.LoginPage - clicked on Login Button.
+2016-02-11 15:54:00,029 [main] INFO com.tyss.pomRepo.HomePage - giobiojb
+2016-02-11 15:54:07,034 [main] INFO com.tyss.pomRepo.LoginPage - Email-ID is entered
+2016-02-11 15:54:07,185 [main] INFO com.tyss.pomRepo.LoginPage - Password is entered
+2016-02-11 15:54:07,271 [main] FATAL com.tyss.pomRepo.LoginPage - clicked on Login Button.

@@ -20,7 +20,7 @@ import com.tyss.pomRepo.LoginPage;
 
 public class Utility {
 	
-//	public static Logger log = Logger.getLogger();
+	public static Logger log;
 	public static void captureScreenshot(WebDriver driver, String screenshotName){
 		
 		try {

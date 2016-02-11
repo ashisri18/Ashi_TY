@@ -1,0 +1,3 @@
+INFO -2016-02-11 15:54:07,034 - com.tyss.pomRepo.LoginPage -enterEmailId - Email-ID is entered
+INFO -2016-02-11 15:54:07,185 - com.tyss.pomRepo.LoginPage -enterPassword - Password is entered
+FATAL -2016-02-11 15:54:07,271 - com.tyss.pomRepo.LoginPage -clickLoginButton - clicked on Login Button.

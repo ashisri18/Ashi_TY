@@ -1,15 +1,20 @@
 package com.tyss.generic;
 
+import org.apache.commons.io.FileUtils;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.TestListenerAdapter;
 
-public class Listeners implements ITestListener{
+public class Listeners extends TestListenerAdapter{
 
 	@Override
 	public void onTestStart(ITestResult result) {
-		String abc = Utility.currentDateTime();
-		System.setProperty("DateTime", abc);
+		String date = Utility.currentDate();
+		String time = Utility.currentTime();
+		System.setProperty("DateMonth", date);
+		System.setProperty("TimeSec", time);
+		
 	}
 
 	@Override
@@ -38,7 +43,7 @@ public class Listeners implements ITestListener{
 
 	@Override
 	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
+//		FileUtils.copyDirectory("../Ashi/Execution_Reports", "../Ashi/Reports_Backup");
 		
 	}
 

@@ -20,7 +20,7 @@ import com.tyss.pomRepo.LoginPage;
 
 public class Utility {
 	
-	public static Logger log = Logger.getLogger(LoginPage.class);
+//	public static Logger log = Logger.getLogger();
 	public static void captureScreenshot(WebDriver driver, String screenshotName){
 		
 		try {
@@ -34,15 +34,26 @@ public class Utility {
 				} 
 	}
 
-	public static String currentDateTime(){
+	public static String currentDate(){
 		Date date = new Date();
-		DateFormat dateFormat = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
-	//	DateFormat dateFormat = new SimpleDateFormat("dd/MM");
+	//	DateFormat dateFormat = new SimpleDateFormat("ddMMyy_HHmmss");
+		DateFormat dateFormat = new SimpleDateFormat("dd_MM");
 		String  dateValue =dateFormat.format(date);		
 		System.out.println("dateValue :"+dateValue);
-		String newDateFormat = dateValue.replace("/", "_");
-		System.out.println("New date format : "+newDateFormat);
-		return newDateFormat;
+	//	String newDateFormat = dateValue.replace("/", "_");
+	//	System.out.println("New date format : "+newDateFormat);
+		return dateValue;
+	}
+	
+	public static String currentTime(){
+		Date date = new Date();
+	//	DateFormat dateFormat = new SimpleDateFormat("ddMMyy_HHmmss");
+		DateFormat dateFormat = new SimpleDateFormat("HHmmss");
+		String  timeValue =dateFormat.format(date);		
+		System.out.println("timeValue :"+timeValue);
+	//	String newDateFormat = dateValue.replace("/", "_");
+	//	System.out.println("New date format : "+newDateFormat);
+		return timeValue;
 	}
 	
 	public static String readConfigPropertiesFile(String key) throws IOException{

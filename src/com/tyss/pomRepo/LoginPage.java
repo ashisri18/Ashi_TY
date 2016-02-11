@@ -46,6 +46,7 @@ public class LoginPage {
 	public void clickLoginButton(){
 		loginButton.click();
 		log.fatal("clicked on Login Button.");
+		log.info("Hello");
 		comLib.waitForPageToLoad();
 	}
 
